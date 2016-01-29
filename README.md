@@ -49,7 +49,7 @@ Amazon Adapter Installation Instructions
 a) create a folder com.ibm.itx.amazon.sqs under WTX INSTALL/jars directory b) Drop m4sqs.jar in to WTX INSTALL/jars/com.ibm.itx.amazon.sqs
 c) Edit adapters.xml and add the following line
 
-<M4Adapter name="Amazon SQS" alias="ASQS" id="175" type="app" class="com/ibm/itx/amazon/sqs"/>
+M4Adapter name="Amazon SQS" alias="ASQS" id="175" type="app" class="com/ibm/itx/amazon/sqs"
 
 d) Download Amazon SNS SDK Java artifacts from Tools for Amazon Web Services. From the zip file, Copy aws-java-sdk-1.xxx.jar, ccommons-codec-1.xx.jar, commons-lang3-xxx.jar.jar, commons-logging-1.xx.jar, pofluent-hc-4.xx.jar,httpclient-xx.jar, httpclient-cache-4.xx.jar, httpcore-4.xx.jar, httpmime-4.xx.jar, jackson-annotations-2.xx.jar, jackson-core-2.xx.jar, jackson-databind-2.x.jar and joda-time-2.x.jar to WTX INSTALL DIR/jars/com.ibm.itx.amazon.sqs
 
